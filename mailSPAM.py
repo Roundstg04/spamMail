@@ -28,7 +28,7 @@ def send_mail():
 		print('Отправлено:' + str(value))
 
 def main():
-	send.mail()
+	send_mail()
 
 if __name__ == '__main__':
 	main()
