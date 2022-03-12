@@ -30,5 +30,5 @@ def send_mail():
 def main():
 	send.mail()
 
-if __name__ == '_main_':
+if __name__ == '__main__':
 	main()
