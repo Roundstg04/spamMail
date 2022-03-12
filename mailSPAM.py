@@ -11,7 +11,7 @@ def send_mail():
 	message = input('Введите сообщение:')
 	num = int(input('Введите кол-во сообщений:'))
 
-	for value in range(num)
+	for value in range (num):
 		msg = MIMEMultipart()
 
 		msg['Subject'] = topic
@@ -30,5 +30,5 @@ def send_mail():
 def main():
 	send.mail()
 
-if _name_ == '_main_':
+if __name__ == '_main_':
 	main()
