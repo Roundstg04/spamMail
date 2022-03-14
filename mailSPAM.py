@@ -2,6 +2,8 @@ import smtplib as root
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
+print('Version 1.0')
+
 def send_mail():
 	login = input('Введите вашу почту:')
 	password = input('Введите пароль от почты:')
