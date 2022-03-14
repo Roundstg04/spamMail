@@ -2,11 +2,14 @@ import smtplib as root
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
+clear = '\033[0m'
+lgreen = '\033[92m'
+
 print('clear')
-print("""       ▗▜ ▞▀▖▛▀▖   ▙▗▌
+print(lgreen+"""       ▗▜ ▞▀▖▛▀▖   ▙▗▌
 ▛▚▀▖▝▀▖▄▐ ▚▄ ▙▄▘▝▀▖▌▘▌
 ▌▐ ▌▞▀▌▐▐ ▖ ▌▌  ▞▀▌▌ ▌
-▘▝ ▘▝▀▘▀▘▘▝▀ ▘  ▝▀▘▘ ▘                   Version 1.0""")
+▘▝ ▘▝▀▘▀▘▘▝▀ ▘  ▝▀▘▘ ▘                   Version 1.0"""+lgreen)
 
 def send_mail():
 	login = input('Введите вашу почту:')
