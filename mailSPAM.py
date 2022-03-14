@@ -4,7 +4,6 @@ from email.mime.multipart import MIMEMultipart
 
 lgreen = '\033[92m'
 
-print('clear')
 print(lgreen+"""       ▗▜ ▞▀▖▛▀▖   ▙▗▌
 ▛▚▀▖▝▀▖▄▐ ▚▄ ▙▄▘▝▀▖▌▘▌
 ▌▐ ▌▞▀▌▐▐ ▖ ▌▌  ▞▀▌▌ ▌
