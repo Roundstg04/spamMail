@@ -3,10 +3,10 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 print('clear')
-print('▗▜ ▞▀▖▛▀▖   ▙▗▌
+print(green+"""▗▜ ▞▀▖▛▀▖   ▙▗▌
 ▛▚▀▖▝▀▖▄▐ ▚▄ ▙▄▘▝▀▖▌▘▌
 ▌▐ ▌▞▀▌▐▐ ▖ ▌▌  ▞▀▌▌ ▌
-▘▝ ▘▝▀▘▀▘▘▝▀ ▘  ▝▀▘▘ ▘                   Version 1.0')
+▘▝ ▘▝▀▘▀▘▘▝▀ ▘  ▝▀▘▘ ▘                   Version 1.0"""+green)
 
 def send_mail():
 	login = input('Введите вашу почту:')
