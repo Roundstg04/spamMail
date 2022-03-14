@@ -10,9 +10,9 @@ mailSPAM это очень простой в использовании спам
 # Установка
 1.Скачать Termux.
 
-2.Написать команду "apt update&apt upgrade".
+2.Написать команду "apt update & apt upgrade -y".
 
-3.Написать команду "apt install git -y".
+3.Написать команду "apt install git".
 
 4.Установить Python командой "pkg install python -y".
 
