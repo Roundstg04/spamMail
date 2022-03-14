@@ -2,7 +2,6 @@ import smtplib as root
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-clear = '\033[0m'
 lgreen = '\033[92m'
 
 print('clear')
