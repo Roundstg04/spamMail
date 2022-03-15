@@ -10,3 +10,4 @@ then
 	chmod -R 777 ~/mail
 	chmod 777 $PREFIX/bin/mail
 	mail
+fi
