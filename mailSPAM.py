@@ -14,7 +14,7 @@ print("1) Запустить spammail.")
 print("2) Обновить spamMail.")
 print("3) Выход.")
 input1 = input(Fore.BLUE+"Введите номер пункта: "+Style.RESET_ALL)
-elif input1 == "1":
+if input1 == "1":
 send_mail()
 elif input1 == "2":
 update()				
