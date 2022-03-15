@@ -10,6 +10,27 @@ print(clear+lgreen+"""       ▗▜ ▞▀▖▛▀▖   ▙▗▌
 ▌▐ ▌▞▀▌▐▐ ▖ ▌▌  ▞▀▌▌ ▌
 ▘▝ ▘▝▀▘▀▘▘▝▀ ▘  ▝▀▘▘ ▘                   Version 1.0"""+lgreen+clear)
 
+print("1) Запустить spammail.")
+print("2) Обновить spamMail.")
+print("3) Выход.")
+ input1 = input(Fore.BLUE+"Введите номер пункта: "+Style.RESET_ALL)
+    elif input1 == "1":
+        send_mail()
+    elif input1 == "2":
+	update()
+					
+    elif input1 == "3":
+	print (Fore.BLUE+"\nДо скорой встречи!)\n"+Style.RESET_ALL)
+		exit()
+def update():
+	a=input("Вы уверены, что хотите обновить? (y/n) ")
+
+	if a=="y":
+	os.system("cd && rm -rf spamMail && git clone https://github.com/Roundstg04/spamMail && cd spamMail && sh install.sh")
+	exit()
+	else:
+	print("Отменено")
+
 def send_mail():
 	login = input('Введите вашу почту:')
 	password = input('Введите пароль от почты:')
