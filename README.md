@@ -28,3 +28,14 @@ mailSPAM это очень простой в использовании спам
 
 # Disclaimer
 МЫ НЕ НЕСЕМ ОТВЕТСТВЕННОСТЬ ЗА ВАШИ ДЕЙСТВИЯ!!!
+# Версия2.0
+Это новая версия, где я добавил авто установку.
+# Автоустановка
+
+- `apt install git`
+
+- `git clone https://github.com/Roundstg04/spamMail`
+
+- `cd spamMail`
+
+- `sh ~/spymer/install.sh`
