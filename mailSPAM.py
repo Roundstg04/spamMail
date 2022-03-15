@@ -14,14 +14,13 @@ print("1) Запустить spammail.")
 print("2) Обновить spamMail.")
 print("3) Выход.")
 input1 = input(Fore.BLUE+"Введите номер пункта: "+Style.RESET_ALL)
-    elif input1 == "1":
-        send_mail()
-    elif input1 == "2":
-	update()
-					
-    elif input1 == "3":
-	print (Fore.BLUE+"\nДо скорой встречи!)\n"+Style.RESET_ALL)
-		exit()
+elif input1 == "1":
+send_mail()
+elif input1 == "2":
+update()				
+elif input1 == "3":
+print (Fore.BLUE+"\nДо скорой встречи!)\n"+Style.RESET_ALL)
+exit()
 def update():
 	a=input("Вы уверены, что хотите обновить? (y/n) ")
 
