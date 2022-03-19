@@ -45,7 +45,7 @@ def send_mail():
 def main():
  send_mail()
 
-if name == 'main':
+if __name__ == '__main__':
  main()
 
 print("1) Запустить spammail.")
