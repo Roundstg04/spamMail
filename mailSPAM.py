@@ -21,8 +21,8 @@ elif numpuk == "2":
        a=input("Вы уверены, что хотите обновить? (y/n) ")
 
        if a=="y":
-       os.system("cd && rm -rf spamMail && git clone https://github.com/Roundstg04/spamMail && cd spamMail && sh install.sh")
-       exit()    
+         os.system("cd && rm -rf spamMail && git clone https://github.com/Roundstg04/spamMail && cd spamMail && sh install.sh")
+         exit()    
 elif numpuk == "3":
     print ( "\nДо скорой встречи!)\n" )
 
