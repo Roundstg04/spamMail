@@ -14,11 +14,11 @@ print("1) Запустить spammail.")
 print("2) Обновить spamMail.")
 print("3) Выход.")
 numpuk = input( lgreen + "Введите номер пункта: " + lgreen)
-if input == "1":
-    send_mail()
-elif input == "2":
+if numpuk == "1":
+  send_mail()
+elif numpuk == "2":
     update()    
-elif input == "3":
+elif numpuk == "3":
     print ( "\nДо скорой встречи!)\n" )
 def update():
  a=input("Вы уверены, что хотите обновить? (y/n) ")
