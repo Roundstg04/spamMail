@@ -10,6 +10,17 @@ print(clear+lgreen+"""       ▗▜ ▞▀▖▛▀▖   ▙▗▌
 ▌▐ ▌▞▀▌▐▐ ▖ ▌▌  ▞▀▌▌ ▌
 ▘▝ ▘▝▀▘▀▘▘▝▀ ▘  ▝▀▘▘ ▘                   Version 1.0"""+lgreen+clear)
 
+print("1) Запустить spammail.")
+print("2) Обновить spamMail.")
+print("3) Выход.")
+numpuk = input( lgreen + "Введите номер пункта: " + lgreen)
+if input == "1":
+    send_mail()
+elif input == "2":
+    update()    
+elif input == "3":
+    print ( "\nДо скорой встречи!)\n" )
+exit()
 def update():
  a=input("Вы уверены, что хотите обновить? (y/n) ")
 
@@ -47,15 +58,3 @@ def main():
 
 if __name__ == '__main__':
  main()
-
-print("1) Запустить spammail.")
-print("2) Обновить spamMail.")
-print("3) Выход.")
-numpuk = input( lgreen + "Введите номер пункта: " + lgreen)
-if input == "1":
-    send_mail()
-elif input == "2":
-    update()    
-elif input == "3":
-    print ( "\nДо скорой встречи!)\n" )
-exit()
