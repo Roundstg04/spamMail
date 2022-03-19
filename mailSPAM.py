@@ -17,15 +17,14 @@ numpuk = input( lgreen + "Введите номер пункта: " + lgreen)
 if numpuk == "1":
   send_mail()
 elif numpuk == "2":
-    update()    
+    def update():
+       a=input("Вы уверены, что хотите обновить? (y/n) ")
+
+       if a=="y":
+       os.system("cd && rm -rf spamMail && git clone https://github.com/Roundstg04/spamMail && cd spamMail && sh install.sh")
+       exit()    
 elif numpuk == "3":
     print ( "\nДо скорой встречи!)\n" )
-def update():
- a=input("Вы уверены, что хотите обновить? (y/n) ")
-
- if a=="y":
-     os.system("cd && rm -rf spamMail && git clone https://github.com/Roundstg04/spamMail && cd spamMail && sh install.sh")
-     exit()
 
 def send_mail():
  login = input('Введите вашу почту:')
