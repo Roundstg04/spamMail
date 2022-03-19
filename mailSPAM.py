@@ -52,10 +52,10 @@ print("1) Запустить spammail.")
 print("2) Обновить spamMail.")
 print("3) Выход.")
 numpuk = input( lgreen + "Введите номер пункта: " + lgreen)
-if input1 == "1":
+if input == "1":
     send_mail()
-elif input1 == "2":
+elif input == "2":
     update()    
-elif input1 == "3":
+elif input == "3":
     print ( "\nДо скорой встречи!)\n" )
 exit()
