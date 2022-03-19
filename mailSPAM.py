@@ -20,7 +20,6 @@ elif input == "2":
     update()    
 elif input == "3":
     print ( "\nДо скорой встречи!)\n" )
-exit()
 def update():
  a=input("Вы уверены, что хотите обновить? (y/n) ")
 
